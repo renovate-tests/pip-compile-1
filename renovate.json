@@ -2,8 +2,6 @@
   "pip-compile": {
     "fileMatch": ["(^|/)requirements\\.in$"],
     "lockFileMaintenance": {
-      "commitMessageAction": "Refresh compiled files",
-      "enabled": true,
       "schedule": null
     }
   }
