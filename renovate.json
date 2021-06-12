@@ -1,5 +1,9 @@
 {
   "pip-compile": {
-    "fileMatch": ["(^|/)requirements\\.in$"]
+    "fileMatch": ["(^|/)requirements\\.in$"],
+    "lockFileMaintenance": {
+      "enabled": true,
+      "schedule": null
+    }
   }
 }
